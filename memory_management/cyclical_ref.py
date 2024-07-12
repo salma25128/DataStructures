@@ -1,6 +1,6 @@
 
 # cyclical Reference >>> 2 ref points to each other
-# can not detected by ref count carbage collection type alone
+# can not detected by ref count garbage collection type alone
 class Cycle:
     def __init__(self,value):
         self.value = value
