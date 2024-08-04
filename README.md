@@ -1,6 +1,10 @@
 **DataStructres**
 -------------
 How data is organized, stored, and manipulated within a program.
+>> Infrastructure(consecutive and non-consecutive Memory stores)>>>operations
+* operations
+  * static >> no change in infrastructure(get or set value)
+  * Dynamic >> change infrastructure(array resizing)
 
 ### Table of contents:
    * 1-Linear Data Structure 
@@ -24,7 +28,7 @@ How data is organized, stored, and manipulated within a program.
 
     * bool: Represents True or False.
 
-## String Type:
+ * ## String Type:
 
    * str: Sequence of Unicode characters (e.g., "hello", 'python').
 
@@ -73,13 +77,11 @@ Such as when you need matrix multiplication or some other advanced math, and wan
   * Simple Array
   * Two dimensional Array 
   * Multi dimensional Array
+  * Jagged array[list of lists-in python]
 
 ## To Deal with Arrays in python:
   *  Import array module
   *  Declare your variable with Typecode //>> variable_name = array(typecode,[elements])
-            
-![img.png](img.png)
-
 ----------------------------------------------
 **OR Import `numpy`
      It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), 

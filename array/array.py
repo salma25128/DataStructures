@@ -19,6 +19,7 @@ a = arr.array('i',[1,2,25,9,10,8])
 # single value stores count = number of array elements
 print(id(f" array base address = {a}"))
 print(f" index[1] = {139816498015664+6*1}")
+print(hex(139816498015664+6*1))
 
 # ------------------------------------------------------------------
 

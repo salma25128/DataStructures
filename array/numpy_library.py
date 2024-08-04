@@ -9,5 +9,5 @@ a = np.empty(9, dtype=object)
 print(a)
 
 # create multi-dim array by providing shape
-matrix = np.empty(shape=(2, 5), dtype='object')
+matrix = np.empty(shape=(2,5), dtype='object')
 print(matrix)
